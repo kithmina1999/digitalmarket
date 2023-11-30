@@ -40,4 +40,5 @@ export const getPayloadClient = async({
         cached.promise = null
         throw e
     }
+    return cached.client
 }
